@@ -1,0 +1,523 @@
+/* MEDIA QUERY */
+
+
+/*---------- XS -------------- XS --------------- XS --------------- XS ------------------- XS --------- */
+
+@media(min-width: 320px) and (max-width: 767px) {
+    /* navbar style start */
+    nav .container{
+        width: 100%;
+    }
+    .bg-dark {
+        padding: 20px;
+        background-color: #b54b52 !important;
+    }
+    .navbar-dark .navbar-nav {
+        margin-top: 12px;
+    }
+    .navbar-dark .navbar-nav .nav-link {
+        padding: 10px;
+    }
+    /* navbar style end */
+    /* ------------------------ */
+    .container {
+        width: auto;
+    }
+    .home {
+        height: auto;
+        margin-top: 70px;
+    }
+    .home .container-fluid {
+        height: auto;
+    }
+    .home .container-fluid .row {
+        height: auto;
+    }
+    .home .container-fluid .item {
+        height: auto;
+    }
+    .carousel-control-next span,
+    .carousel-control-prev span {
+        font-size: 30px;
+    }
+    .carousel-control-next,
+    .carousel-control-prev {
+        width: 10% !important;
+    }
+    .carousel-indicators {
+        bottom: 0;
+    }
+    .carousel-indicators li {
+        width: 10px;
+        height: 10px;
+        margin-right: 10px;
+        margin-left: 10px;
+        display: none;
+    }
+    /* ------------------------ */
+    .services {
+        height: auto;
+        padding-bottom: 20px;
+    }
+    .services h2 {
+        text-align: center;
+        padding: 40px 0 20px 0;
+        font-size: 40px;
+        font-weight: bold;
+    }
+    .services p.title {
+        font-size: 14px;
+        padding: 0 20px;
+    }
+    .services p {
+        font-size: 13px;
+        padding: 20px 25px 60px 25px;
+    }
+    .services .serviceBox {
+        margin-bottom: 20px;
+    }
+    .services .serviceBox h3 {
+        font-size: 25px;
+        font-weight: bold;
+    }
+    .services .serviceBox img {
+        margin-top: 30px;
+    }
+    .services .serviceBox p {
+        padding: 20px 24px 30px 24px;
+    }
+    /* ------------------------ */
+    .about {
+        height: auto;
+    }
+    .about .intro h2 {
+        text-align: center;
+        padding: 40px 0 20px 0;
+        font-size: 40px;
+        font-weight: bold;
+    }
+    .about .intro p {
+        font-size: 13px;
+        padding: 20px 20px 60px 20px;
+    }
+    .about .aboutBox {
+        margin-bottom: 20px;
+    }
+    .about .aboutBox img {
+        margin: 30px 0 10px 0;
+    }
+    /* ------------------------ */
+    .work {
+        height: auto;
+    }
+    .work .intro h2 {
+        text-align: center;
+        padding: 40px 0 20px 0;
+        font-size: 40px;
+        font-weight: bold;
+    }
+    .work .intro p {
+        font-size: 13px;
+        padding: 20px 20px 10px 20px;
+    }
+    .work .portfolio {
+        height: auto;
+        padding: 20px 0;
+    }
+    .work .portfolio h3 {
+        text-align: center;
+        margin: 0 0 15px 0;
+    }
+    .work .portfolioMenu {
+        margin-top: 15px;
+        margin: auto;
+        text-align: center;
+    }
+    .work .portfolioMenu li {
+        padding: 5px;
+        font-size: 15px;
+        margin: auto;
+    }
+    /* ------------------------ */
+    .contacts {
+        height: auto;
+        padding-bottom: 20px;
+    }
+    .contacts .intro h2 {
+        text-align: center;
+        padding: 40px 0 20px 0;
+        font-size: 40px;
+        font-weight: bold;
+    }
+    .contacts .intro {
+        padding-bottom: 0px;
+    }
+    .contacts .intro p {
+        font-size: 13px;
+        padding: 20px 20px 0px 20px;
+    }
+    .contacts .info {
+        text-align: center;
+    }
+    .contacts .info h3 {
+        font-weight: bold;
+        font-size: 33px;
+        padding-top: 40px;
+    }
+    .contacts .info p.contactInfo {
+        padding-bottom: 0px;
+    }
+    .contacts .info h4 {
+        text-align: left;
+        padding-left: 30px;
+    }
+    .contacts .info p {
+        font-size: 14px;
+        text-align: left;
+        padding-left: 30px;
+    }
+    .contacts .info p span {
+        font-weight: bold;
+    }
+    .contacts .info .form-control.email {
+        margin-top: auto;
+    }
+    .contacts .info .form-control.question {
+        margin-bottom: 0;
+    }
+    .contacts .info .btn-danger {
+        margin: 10px 0;
+    }
+    /* ---------------------- */
+    .footer {
+        height: auto;
+        padding: 20px 0;
+    }
+    .footer a {
+        height: 40px;
+        width: 40px;
+        line-height: 44px;
+        margin-left: 20px;
+    }
+    .footer a i {
+        font-size: 20px;
+    }
+}
+
+
+/* ----------------------------------------------------------------------------------------------*/
+
+@media(min-width: 360px) and (max-width: 767px) {
+    .work .gallery .photo h4 {
+        width: 300px;
+        margin: auto;
+    }
+    .work .gallery .photo h4 .triangle {
+        top: -14px;
+    }
+}
+
+
+/* ----------------------------------------------------------------------------------------------*/
+
+@media(min-width: 375px) and (max-width: 767px) {}
+
+
+/* ----------------------------------------------------------------------------------------------*/
+
+@media(min-width: 411px) and (max-width: 767px) {
+    .services p.title {
+        font-size: 18px;
+    }
+    .services p,
+    .services .serviceBox p,
+    .about .intro p,
+    .work .intro p,
+    .contacts .intro p,
+    .contacts .info p {
+        font-size: 16px;
+    }
+    .services h2,
+    .about .intro h2,
+    .work .intro h2,
+    .contacts .intro h2 {
+        padding: 60px 0 50px 0;
+        font-size: 50px;
+    }
+}
+
+
+/* ----------------------------------------------------------------------------------------------*/
+
+@media(min-width: 414px) and (max-width: 767px) {}
+
+
+/* ----------------------------------------------------------------------------------------------*/
+
+@media(min-width: 568px) and (max-width: 767px) {
+    .work .portfolio h3 {
+        font-size: 26px;
+    }
+    .work .portfolioMenu li {
+        font-size: 16px;
+        margin-left: 20px;
+    }
+}
+
+
+/* ------- SM ------------- SM ------------- SM ------------- SM ------------- SM ------------- SM ------ */
+
+@media(min-width: 640px) and (max-width: 767px) {}
+
+
+/* ---------------------------------------------------------------------- */
+
+@media(min-width: 667px) and (max-width: 767px) {}
+
+
+/* ---------------------------------------------------------------------- */
+
+@media(min-width: 731px) and (max-width: 767px) {}
+
+
+/* ---------------------------------------------------------------------- */
+
+@media(min-width: 736px) and (max-width: 767px) {}
+
+
+/* ----- MD --------- MD --------- MD --------- MD --------- MD --------- MD --------- MD --------- MD ----*/
+
+@media(min-width: 768px) and (max-width: 991px) {
+    /* navbar style start */
+    nav .container{
+        width: 100%;
+    }
+    .bg-dark {
+        padding: 20px;
+        background-color: #b54b52 !important;
+    }
+    .navbar-dark .navbar-nav {
+        margin-top: 12px;
+    }
+    .navbar-dark .navbar-nav .nav-link {
+        padding: 10px;
+    }
+    /* navbar style end */
+    .container {
+        width: auto;
+    }
+    .home {
+        height: auto;
+        margin-top: 70px;
+    }
+    .home .container-fluid {
+        height: auto;
+    }
+    .home .container-fluid .row {
+        height: auto;
+    }
+    .home .container-fluid .item {
+        height: auto;
+    }
+    .carousel-caption {
+        bottom: 38%;
+        right: 15%;
+        left: 15%;
+    }
+    h1 {
+        font-size: 100px;
+    }
+    .home p {
+        font-size: 35px;
+    }
+    .carousel-control-next span,
+    .carousel-control-prev span {}
+    .carousel-control-next,
+    .carousel-control-prev {}
+    .carousel-indicators {
+        bottom: 0;
+    }
+    .carousel-indicators li {
+        width: 10px;
+        height: 10px;
+        margin-right: 10px;
+        margin-left: 10px;
+        display: none;
+    }
+    /* ------------------------ */
+    .services {
+        height: auto;
+        padding-bottom: 20px;
+    }
+    .services h2 {
+        text-align: center;
+        padding: 60px 0 20px 0;
+        font-size: 56px;
+        font-weight: bold;
+    }
+    .services p.title {
+        font-size: 20px;
+        padding: 10px 20px;
+    }
+    .services p {
+        font-size: 18px;
+        padding: 20px 25px 60px 25px;
+    }
+    .services .serviceBox {
+        margin-bottom: 20px;
+    }
+    .services .serviceBox h3 {
+        font-size: 25px;
+        font-weight: bold;
+    }
+    .services .serviceBox img {
+        margin-top: 30px;
+    }
+    .services .serviceBox p {
+        padding: 20px 24px 30px 24px;
+    }
+    /* ------------------------ */
+    .about {
+        height: auto;
+    }
+    .about .intro h2 {
+        text-align: center;
+        padding: 60px 0 20px 0;
+        font-size: 56px;
+        font-weight: bold;
+    }
+    .about .intro p {
+        font-size: 18px;
+        padding: 20px 25px 60px 25px;
+    }
+    .about .aboutBox {
+        margin-bottom: 20px;
+    }
+    .about .aboutBox img {
+        margin: 30px 0 10px 0;
+    }
+    /* ------------------------ */
+    .work {
+        height: auto;
+    }
+    .work .intro h2 {
+        text-align: center;
+        padding: 60px 0 20px 0;
+        font-size: 56px;
+        font-weight: bold;
+    }
+    .work .intro p {
+        font-size: 18px;
+        padding: 20px 25px 60px 25px;
+    }
+    .work .portfolio {
+        height: auto;
+        padding: 20px 0;
+    }
+    .work .portfolio h3 {
+        text-align: center;
+        margin: 0 0 15px 0;
+        font-size: 25px;
+    }
+    .work .portfolioMenu {
+        margin-top: 15px;
+        margin: auto;
+        text-align: center;
+    }
+    .work .portfolioMenu li {
+        padding: 5px;
+        font-size: 15px;
+        margin: auto;
+    }
+    .work .gallery .photo h4 {
+        width: 300px;
+        margin: auto;
+    }
+    /* ------------------------ */
+    .contacts {
+        height: auto;
+        padding-bottom: 20px;
+    }
+    .contacts .intro h2 {
+        text-align: center;
+        padding: 60px 0 20px 0;
+        font-size: 56px;
+        font-weight: bold;
+    }
+    .contacts .intro {
+        padding-bottom: 0px;
+    }
+    .contacts .intro p {
+        font-size: 18px;
+        padding: 20px 25px 60px 25px;
+    }
+    .contacts .info {
+        text-align: center;
+    }
+    .contacts .info h3 {
+        font-weight: bold;
+        font-size: 40px;
+        padding-top: 40px;
+        text-align: left;
+        padding-left: 10px;
+    }
+    .contacts .info p.contactInfo {
+        padding-bottom: 0px;
+    }
+    .contacts .info h4 {
+        text-align: left;
+        padding-left: 25px;
+        font-size: 24px;
+    }
+    .contacts .info p {
+        font-size: 16px;
+        text-align: left;
+        padding-left: 25px;
+    }
+    .contacts .info p span {
+        font-weight: bold;
+    }
+    .contacts .info .form-control.email {
+        margin-top: 25px;
+    }
+    .contacts .info .form-control.question {
+        margin-bottom: 0;
+        margin-top: 10px;
+    }
+    .contacts .info .btn-danger {
+        margin: 10px 0;
+    }
+    /* ---------------------- */
+    .footer {
+        height: auto;
+        padding: 30px 0;
+    }
+    .footer a {
+        height: 40px;
+        width: 40px;
+        line-height: 44px;
+        margin-left: 20px;
+    }
+    .footer a i {
+        font-size: 20px;
+    }
+}
+
+
+/* ---- LG ------- LG ------- LG ------- LG ------- LG ------- LG ------- LG ------- LG -------- LG ------- */
+
+@media(min-width: 1024px) and (max-width: 1366px) {
+	.home{
+		height: auto;
+	}
+
+	.work .portfolioMenu li {
+	    padding: 5px 10px;
+	    margin-left: 8px;
+	}
+}
+
+
+/* ------- XL ----------- XL ----------- XL ----------- XL ----------- XL ----------- XL ----------- XL ---- */
+
+@media(min-width: 1366px) and (max-width: 1367px) {}
